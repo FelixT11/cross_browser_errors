@@ -1,0 +1,843 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+.container{
+    
+ width:1366px;
+ display: block;
+ margin: 0 auto;    
+}
+
+.navbar{
+ 
+ background-color: #570f0f;   
+ padding: 15px 35px 25px 5px ;
+}
+
+.shoppers{
+ 
+ float: left;
+ margin: 10px 10px 0px 20px;
+ font-family: 'Kaushan Script', cursive;
+ color: #ffffff;
+ font-size: 70px;
+}
+
+
+.float-left{
+ 
+ padding-top: 30px;
+ float: left;
+}
+
+.search-float-right{
+ 
+ padding-top: 30px;
+ float: right;
+}
+
+ul {
+    
+ margin: 0;
+ padding: 0px 100px ;   
+}
+
+ul.main-menu li {
+ 
+ position: relative;
+ display: inline-block;
+ font-family: sans-serif;
+ padding: 10px 25px;
+ color: #ffffff;  
+ font-family: 'Oswald', sans-serif;
+ font-size: 25px;
+}
+
+}
+ul.sub-menu li {
+    
+ font-family: 'Oswald', sans-serif;
+ font-size: 18px;
+ width: 200px;
+}
+
+
+a{
+    
+ text-decoration: none;
+ color: #ffffff;
+ font-family: 'Oswald', sans-serif;
+ font-size: 25px;  
+}
+
+.clearfix{
+    
+ display: block;
+ width: 100%;
+ clear: both;
+ float: none;
+}
+
+.white {
+ 
+ color: #ffffff;
+}
+
+
+input.white{
+    
+ border: none;
+ border-bottom: 1px solid #ffffff;
+ background: none;
+ padding:10px 5px;
+}
+
+.fa-search{
+   
+ color: #ffffff;
+}
+
+.banner{
+    
+ width: 1366px;
+ height: 599px;
+ background-image: url('../images/banner.jpg');
+ 
+}
+
+.banner{
+    
+ text-align: center;
+}
+
+.banner button{
+    
+ height: 40px;
+ width: 300px;
+ border: none;
+ background-color: #570f0f;   
+ color: #ffffff;    
+ font-family:  'Oswald', sans-serif;
+ font-size: 20px;
+ text-align: center;
+ margin: 50px;
+}
+
+.online button:hover {
+    
+ background-color: #762a2a;   
+}
+
+button:focus{
+    
+ outline: none;
+}
+
+.find-your-trip{
+    
+ margin-right: 150px;
+}
+
+.big-shoppers{
+    
+ font-family: 'Kaushan Script', cursive;
+ color: #000000;    
+ font-size: 196px;  
+ padding-top: 130px;
+}
+
+.sub-title{
+  
+ margin-top: 60px;
+ font-family: 'Oswald', sans-serif;
+ font-weight: bold;
+ color: #000000;    
+ font-size: 30px;
+ letter-spacing: 5px;
+}
+
+.offers{
+    
+ font-family:  'Oswald', sans-serif;
+ color: #570f0f; 
+ font-size: 100px;
+ text-align: center;
+ margin-top: 60px;
+}
+
+.offer-section{
+    
+ background-color: rgba(87,15,15,0.1);   
+ width: 80%;
+ margin: 0 auto;
+ margin-top: 50px;
+}
+
+.shopping-offer{
+    
+ width: 100%;
+ display: flex;
+ justify-content: space-around;
+ flex-flow: row wrap;
+}
+
+.offer-section img{
+   
+ margin-top: 50px;
+ width: 300px;
+ height: 300px;
+}
+
+.shopping-info-one{
+    
+ box-sizing: border-box;
+ margin-left: 30px;    
+}
+
+.apple{
+    
+ box-sizing: border-box;
+ margin-right: 30px;  
+}
+
+.food-offers{
+    
+ font-family:  'Oswald', sans-serif;
+ color: #570f0f; 
+ font-size: 40px;
+ box-sizing: border-box;
+ margin-left: 45px;
+
+}
+
+.price{
+    
+ font-family:  'Oswald', sans-serif;
+ color: #570f0f; 
+ font-size: 40px;
+ text-align: center;
+ padding: 30px;
+}
+
+.add-btn{
+    
+ float: right;
+ box-sizing: border-box;
+ margin-right: 40px;
+ height: 30px;
+ width: 100px;
+ border: none;
+ background-color: #570f0f; 
+ color: #ffffff;
+ font-family:  'Oswald', sans-serif;
+ font-size: 16px;
+}
+
+.food-box{
+    
+ display: block;
+ background: #ffffff;
+ width: 300px;
+ box-sizing: border-box;
+ padding-top: 30px;
+ padding-bottom: 30px;
+}
+
+.sub-article{
+    
+ background-color: rgba(87,15,15,0.1);   
+ width: 80%;
+ margin: 0 auto;
+ padding-top: 100px;
+ padding-bottom: 100px;
+}
+
+.com-img{
+    
+ width: 530px;
+ height: 250px;
+ float: left;
+ margin-right: 30px;
+}
+
+.com-article{
+ 
+ box-sizing: border-box;
+ margin-left: 55px; 
+ position: relative;
+}
+
+.computer-header{
+    
+ font-family:  'Oswald', sans-serif;
+ color: #570f0f;   
+ font-size: 40px;
+}
+
+.com-body{
+    
+ box-sizing: border-box;   
+ line-height: 25px;   
+ font-family:  'Oswald', sans-serif;
+ color: #000000;
+ font-size: 16px; 
+ width: 90%;
+ margin-top: 15px;
+}
+
+.com-btn{
+    
+ box-sizing: border-box;
+ height: 30px;
+ width: 100px;
+ border: none;
+ background-color: #570f0f;   
+ color: #ffffff;
+ font-family:  'Oswald', sans-serif;
+ font-size: 16px;
+ margin-right: 100px;
+ position: absolute;
+ bottom: 25px;
+ right: 450px;
+}
+
+.phone-img{
+  
+ box-sizing: border-box;
+ width: 530px;
+ height: 250px;
+ float: right;
+ margin-left: 30px; 
+ margin-top: 100px;
+}
+
+.phone-article{
+    
+ box-sizing: border-box;
+ margin-right: 55px;
+ margin-left: 55px;
+ position: relative;
+}
+
+.phone-header{
+    
+ font-family:  'Oswald', sans-serif;
+ color: #570f0f;   
+ font-size: 40px;
+}
+
+.phone-body{
+ 
+ line-height: 25px;
+ font-family:  'Oswald', sans-serif;
+ color: #000000;
+ font-size: 16px; 
+ width: 90%;
+ margin-top: 20px; 
+}
+
+.phone-btn{
+ 
+ box-sizing: border-box;
+ margin-right: 40px;
+ height: 30px;
+ width: 100px;
+ border: none;
+ background-color: #570f0f;   
+ color: #ffffff;
+ font-family:  'Oswald', sans-serif;
+ font-size: 16px;
+ position: absolute;
+ right: 10px;
+ bottom: 15px;   
+}
+
+.phone-text{
+    
+ box-sizing: border-box; 
+ padding-top: 90px;
+}
+
+.article button:hover{
+    
+    background-color: #762a2a;   
+}
+
+.white-box{
+ 
+ padding-top: 50px;
+ margin-left: 136.6px;
+ width: 80%;
+ background-color: #ffffff;
+}
+
+.sign-up-box{
+    
+ background-color: rgba(87,15,15,0.5);   
+ width: 800px;
+ height: 400px;
+ position: relative;
+ margin-bottom: 150px;
+ left: 270px;
+ top: 50px;
+}
+
+.username {
+    
+ font-family: 'Lato', sans-serif;
+ z-index: 20;
+ width: 520px;
+ padding: 12px 20px;
+ margin: 8px 0;
+ position: absolute;
+ left: 116px;
+ top: 100px;
+}
+
+.password{
+
+ font-family: 'Lato', sans-serif;
+ z-index: 20;
+ width: 520px;
+ padding: 12px 20px;
+ margin: 8px 0;
+ position: absolute;
+ left: 116px;
+ top: 179px;
+}
+
+
+.login {
+    
+ position: absolute;
+ background-color: #20c712;
+ font-family: 'Teko', sans-serif;
+ font-size: 30px;
+ color: #000000;
+ border: none;
+ left: 116px;
+ top: 260px;
+ width: 100px;
+ height: 42px;
+}
+
+.cancel-btn{
+    
+ position: absolute;
+ background-color: #ba1616;
+ font-family: 'Teko', sans-serif;
+ font-size: 30px;
+ color: #000000;
+ border: none;
+ left: 250px;
+ top: 260px;
+ width: 100px;
+ height: 42px;
+}
+
+.cancel-btn:hover{
+    
+ background-color: #861616;
+}
+   
+
+.forgot{
+    
+ color: #ffffff;
+ text-decoration: none;
+ font-family: 'Lato', sans-serif;
+ font-weight: lighter;
+ font-size: 18px;
+ position: absolute;
+ right: 120px;
+ top: 280px;
+}
+
+.forgot:hover{
+    
+ color: #1f0df5;
+}
+
+
+footer{
+    
+ position: relative;
+ padding-bottom: 250px;
+ background-color: #570f0f;  
+}
+
+
+.informations{
+    
+ left: 117px;
+ top: 150px;
+ z-index: 20;
+ position: absolute;
+ font-family: 'Teko', sans-serif;
+ font-size: 46px;
+ color: #ffffff;
+}
+
+.follow{
+    
+ right: 102px;
+ top: 150px;
+ z-index: 20;
+ position: absolute;
+ font-family: 'Teko', sans-serif;
+ font-size: 46px;
+ color: #ffffff
+}
+
+hr{
+    
+ border: 1px solid #fcb343;
+ width: 84%;
+ position: absolute;
+ top: 200px;
+ left: 115px;
+}
+
+
+footer ul li a{
+    
+ font-family: 'Lato', sans-serif;
+ font-size: 18px;
+ color: #ffffff;
+ text-decoration: none;
+ line-height: 28px;
+}
+
+footer ul li{
+    
+ display: inline-block;
+ padding: 50px;
+ position: relative;
+ top: 200px;
+ left: 120px;
+}
+
+.copyright{
+    
+ font-family: 'Teko', sans-serif;
+ font-size: 16px;
+ font-weight: lighter;
+ color: #ffffff;
+ position: absolute; 
+ bottom: 20px;
+ left: 600px;
+}
+
+
+
+
+
+/*moz-changes*/
+
+@-moz-document url-prefix(){
+    
+    
+
+
+.navbar{
+ 
+ background-color: #0095f2;   
+}
+
+.shoppers{
+ 
+ margin: 10px 10px 0px 20px;
+ font-family: 'Anton', sans-serif;
+ color: #000000;
+}
+
+
+
+ul.main-menu li {
+ 
+ 
+ font-family: 'Rubik', sans-serif;
+}
+
+
+a{
+    
+ font-family: 'Rubik', sans-serif;
+ font-size: 18px;  
+ color: #000000;
+}
+
+
+input.white{
+    
+ border: 2px solid #000000;
+ width: 150px;
+}
+
+.fa-search{
+   
+ color: #000000;
+}
+
+.banner{
+
+ background-image: url('../images/shopping_center.jpg');
+}
+
+.banner button{
+    
+ background-color: #0095f2;   
+ color: #000000;    
+ font-family: 'Rubik', sans-serif;
+
+}
+
+.online button:hover {
+    
+ background-color: #2579ad;   
+}
+
+
+
+.big-shoppers{
+    
+ font-family: 'Anton', sans-serif;
+ color: #000000;    
+}
+
+.sub-title{
+  
+
+ font-family: 'Rubik', sans-serif;
+}
+
+.offers{
+    
+ font-family:  'Rubik', sans-serif;
+ color: #0095f2;   
+}
+
+.offer-section{
+    
+ background-color: rgba(0,149,242,0.5); 
+}
+
+
+.food-offers{
+    
+ font-family:  'Rubik', sans-serif;
+ color: #0095f2;   
+}
+
+.price{
+    
+ font-family: 'Rubik', sans-serif;
+ color: #0095f2;   
+}
+
+.add-btn{
+    
+ background-color: #0095f2;   
+ color: #000000;
+ font-family: 'Rubik', sans-serif;
+}
+
+.add-btn:hover{
+    
+ background-color: #2579ad;   
+}
+
+
+.sub-article{
+    
+ background-color: rgba(0,149,242,0.5);   
+}
+
+
+.computer-header{
+    
+ font-family: 'Rubik', sans-serif;
+ color: #0095f2;   
+}
+
+.com-body{
+       
+ line-height: 20px;   
+ font-family: 'Rubik', sans-serif;
+ color: #000000;
+}
+
+.com-btn{
+    
+ background-color: #0095f2;   
+ color: #000000;
+ font-family: 'Rubik', sans-serif;
+}
+
+.phone-header{
+    
+ font-family: 'Rubik', sans-serif;
+ color: #0095f2;   
+}
+
+.phone-body{
+ 
+ line-height: 20px;
+ font-family: 'Rubik', sans-serif;
+}
+
+.phone-btn{
+ 
+ background-color: #0095f2;   
+ color: #000000;
+ font-family: 'Rubik', sans-serif; 
+}
+
+.phone-text{
+    
+ box-sizing: border-box; 
+ padding-top: 90px;
+}
+
+.article button:hover{
+    
+    background-color: #2579ad;   
+}
+
+.white-box{
+ 
+ padding-top: 50px;
+ margin-left: 136.6px;
+ width: 80%;
+ background-color: #ffffff;
+}
+  
+.sign-up-box{
+    
+ background-color: rgba(0,149,242,0.5); 
+}
+
+.username {
+    
+ border-radius: 20px;
+}
+
+.password{
+
+ border-radius: 20px;  
+}
+
+
+.login {
+    
+ border-radius: 20px;
+}
+
+.cancel-btn{
+    
+ border-radius: 20px;
+}
+
+.cancel-btn:hover{
+    
+ background-color: #861616;
+}
+   
+
+.forgot{
+    
+ color: #000000;
+}
+
+.forgot:hover{
+    
+ color: #d4421f;
+}
+
+    
+
+
+footer{
+
+ background-color: #0095f2;   
+}
+
+
+.informations{
+    
+ font-family: 'Rubik', sans-serif;
+ color: #000000;
+}
+
+
+hr{
+    
+ border: 1px solid #ade8fd;
+}
+
+
+footer ul li a{
+    
+ font-family: 'Rubik', sans-serif;
+ color: #000000;
+}
+
+.copyright{
+    
+ font-family: 'Rubik', sans-serif;
+ color: #000000;
+}
+    
+    
+}
+
